@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="" />
+    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +161,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -183,8 +186,16 @@
       <workItem from="1596877073893" duration="3144000" />
       <workItem from="1596880899548" duration="22483000" />
       <workItem from="1597214462219" duration="1252000" />
-      <workItem from="1597215738490" duration="5325000" />
+      <workItem from="1597215738490" duration="9597000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1597234135386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597234135386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +212,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1597233134075">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -210,15 +225,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="847" y="407" width="312" height="205" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597233262369" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1596876287767">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="727" y="410" key="NewPhpFileDialog" timestamp="1597240523857">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596876287767" />
-    <state x="424" y="125" width="998" height="708" key="SettingsEditor" timestamp="1597232999941">
+    <state x="727" y="410" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597240523857" />
+    <state x="424" y="125" width="998" height="708" key="SettingsEditor" timestamp="1597240450961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
-    <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597232999941" />
+    <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597234187018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597234187018" />
     <state x="778" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597233897091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
