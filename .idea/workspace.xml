@@ -18,9 +18,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="15 video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +193,7 @@
       <workItem from="1596880899548" duration="22483000" />
       <workItem from="1597214462219" duration="1252000" />
       <workItem from="1597215738490" duration="9597000" />
-      <workItem from="1597310156907" duration="10229000" />
+      <workItem from="1597310156907" duration="10848000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597234135386</created>
@@ -219,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597322216749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="15 video">
+      <created>1597329277593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597329277594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,10 +278,10 @@
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
     <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597234187018">
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597329282419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597234187018" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597329282419" />
     <state x="778" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597233897091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
