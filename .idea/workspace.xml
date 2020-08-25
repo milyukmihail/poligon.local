@@ -16,9 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="25 video">
+    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="27 video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -197,7 +198,8 @@
       <workItem from="1596880899548" duration="22483000" />
       <workItem from="1597214462219" duration="1252000" />
       <workItem from="1597215738490" duration="9597000" />
-      <workItem from="1597310156907" duration="45260000" />
+      <workItem from="1597310156907" duration="48688000" />
+      <workItem from="1598341686352" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597234135386</created>
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597761249141</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="27 video">
+      <created>1597928471440</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597928471440</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,13 +315,14 @@
     <MESSAGE value="20 video" />
     <MESSAGE value="24 video" />
     <MESSAGE value="25 video" />
-    <option name="LAST_COMMIT_MESSAGE" value="25 video" />
+    <MESSAGE value="27 video" />
+    <option name="LAST_COMMIT_MESSAGE" value="27 video" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1597318740920">
+    <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1598013176597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597318740920" />
+    <state x="993" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598013176597" />
     <state x="847" y="407" width="312" height="205" key="Github.ShareDialog" timestamp="1597233262369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,11 +337,11 @@
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
     <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597761250707">
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597928475153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="404" y="169" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597343078367" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597761250707" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597928475153" />
     <state x="767" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597410361402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
