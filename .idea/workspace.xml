@@ -16,10 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="27 video">
+    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="29 video">
+      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +200,7 @@
       <workItem from="1597214462219" duration="1252000" />
       <workItem from="1597215738490" duration="9597000" />
       <workItem from="1597310156907" duration="48688000" />
-      <workItem from="1598341686352" duration="3239000" />
+      <workItem from="1598341686352" duration="7639000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597234135386</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597928471440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="29 video">
+      <created>1598345228654</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598345228654</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +324,8 @@
     <MESSAGE value="24 video" />
     <MESSAGE value="25 video" />
     <MESSAGE value="27 video" />
-    <option name="LAST_COMMIT_MESSAGE" value="27 video" />
+    <MESSAGE value="29 video" />
+    <option name="LAST_COMMIT_MESSAGE" value="29 video" />
   </component>
   <component name="WindowStateProjectService">
     <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1598013176597">
@@ -327,25 +336,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="847" y="407" width="312" height="205" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597233262369" />
-    <state x="727" y="410" key="NewPhpFileDialog" timestamp="1597739851261">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1598381797678">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596876287767" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1598381797678" />
     <state x="727" y="410" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597739851261" />
     <state x="424" y="125" width="998" height="708" key="SettingsEditor" timestamp="1597240450961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
     <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1597928475153">
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1598345237862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="404" y="169" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597343078367" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597928475153" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598345237862" />
     <state x="767" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597410361402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597410361402" />
+    <state x="779" y="0" width="587" height="728" key="find.popup" timestamp="1598384732893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="779" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598384732893" />
     <state x="778" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597233897091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -358,5 +371,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="300" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1597233284271" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
