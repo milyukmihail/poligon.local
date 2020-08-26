@@ -41,7 +41,7 @@ class BlogCategoryRepository extends CoreRepository
             ->toBase()
             ->get(); */
 
-        $result[] = $this
+        $result = $this
             ->startConditions()
             ->selectRaw($columns)
             ->toBase()
