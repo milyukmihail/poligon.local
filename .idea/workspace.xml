@@ -16,11 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="29 video">
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
+    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="Repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/BaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BlogCategoryRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BlogCategoriesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_main_col.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/categories/includes/item_edit_main_col.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +204,7 @@
       <workItem from="1597214462219" duration="1252000" />
       <workItem from="1597215738490" duration="9597000" />
       <workItem from="1597310156907" duration="48688000" />
-      <workItem from="1598341686352" duration="7639000" />
+      <workItem from="1598341686352" duration="15478000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597234135386</created>
@@ -286,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598345228654</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="30 video">
+      <created>1598385352098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598385352098</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Repository">
+      <created>1598385385305</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598385385305</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +343,9 @@
     <MESSAGE value="25 video" />
     <MESSAGE value="27 video" />
     <MESSAGE value="29 video" />
-    <option name="LAST_COMMIT_MESSAGE" value="29 video" />
+    <MESSAGE value="30 video" />
+    <MESSAGE value="Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository" />
   </component>
   <component name="WindowStateProjectService">
     <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1598013176597">
@@ -346,10 +366,10 @@
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
     <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1598345237862">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="404" y="169" key="Vcs.Push.Dialog.v2" timestamp="1598385396382">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="169" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597343078367" />
+    <state x="404" y="169" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598385396382" />
     <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598345237862" />
     <state x="767" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597410361402">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -371,16 +391,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="300" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1597233284271" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php</url>
-          <line>76</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
