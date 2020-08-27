@@ -16,11 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="Index all posts">
+    <list default="true" id="e0597933-176b-4b78-9290-55a8131af05d" name="Default Changelist" comment="Relationship">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/BlogPostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BlogPostRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/Admin/CategoryController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/milyukmihail/poligon.local" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -200,7 +205,7 @@
       <workItem from="1597214462219" duration="1252000" />
       <workItem from="1597215738490" duration="9597000" />
       <workItem from="1597310156907" duration="48688000" />
-      <workItem from="1598341686352" duration="30302000" />
+      <workItem from="1598341686352" duration="31401000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597234135386</created>
@@ -321,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598466880320</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Relationship">
+      <created>1598530183930</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598530183930</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,17 +377,18 @@
     <MESSAGE value="Request logic in rep" />
     <MESSAGE value="Admin post controller" />
     <MESSAGE value="Index all posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index all posts" />
+    <MESSAGE value="Relationship" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relationship" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1598013176597">
+    <state x="993" y="265" key="FileChooserDialogImpl" timestamp="1598531472182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="993" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598013176597" />
-    <state x="847" y="407" width="312" height="205" key="Github.ShareDialog" timestamp="1597233262369">
+    <state x="993" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598531472182" />
+    <state x="847" y="407" width="312" height="205" key="Github.ShareDialog" timestamp="1598531521629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="847" y="407" width="312" height="205" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597233262369" />
+    <state x="847" y="407" width="312" height="205" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598531521629" />
     <state x="727" y="410" key="NewPhpFileDialog" timestamp="1598446627372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -386,11 +399,11 @@
     </state>
     <state x="311" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596901941654" />
     <state x="424" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597240450961" />
-    <state x="404" y="169" key="Vcs.Push.Dialog.v2" timestamp="1598466882786">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2" timestamp="1598530189178">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="404" y="169" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598466882786" />
-    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598447779355" />
+    <state x="568" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598530189178" />
     <state x="767" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597410361402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

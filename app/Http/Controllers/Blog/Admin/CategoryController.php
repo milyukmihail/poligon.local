@@ -72,6 +72,7 @@ class CategoryController extends BaseController
         } else {
             return back()->withErrors(['msg' => 'Ошибка сохранения'])
                 ->withInput();
+
         }
 
     }
